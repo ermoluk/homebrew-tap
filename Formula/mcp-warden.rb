@@ -4,7 +4,6 @@
 class McpWarden < Formula
   desc "Local-first credential broker MCP server for AI coding agents"
   homepage "https://github.com/ermoluk/mcp-warden"
-  version "0.5.3"
   license "Apache-2.0"
 
   on_macos do
