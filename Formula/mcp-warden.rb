@@ -8,23 +8,23 @@ class McpWarden < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ermoluk/mcp-warden/releases/download/v0.5.3/mcp-warden-aarch64-apple-darwin.tar.gz"
-      sha256 "0e35a3abe6a43b8644edaeb18373ab91136712a261eb77497b2407cf9c4f269b"
+      url "https://github.com/ermoluk/mcp-warden/releases/download/v0.5.4/mcp-warden-aarch64-apple-darwin.tar.gz"
+      sha256 "f1549c2c62d32eb0c849121311d426b9f3fb03795908e84d108d7506072e4509"
     end
     on_intel do
-      url "https://github.com/ermoluk/mcp-warden/releases/download/v0.5.3/mcp-warden-x86_64-apple-darwin.tar.gz"
-      sha256 "c20c7b6d06cde4c3dc740ff36b634b5f169a61d9e1681859968413046b602d55"
+      url "https://github.com/ermoluk/mcp-warden/releases/download/v0.5.4/mcp-warden-x86_64-apple-darwin.tar.gz"
+      sha256 "498bb81618d5513b9eec79be2ea5132ae884c98b22fea9bd24fa55b98ecb0edb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ermoluk/mcp-warden/releases/download/v0.5.3/mcp-warden-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "b878e72279e47a3c53fd5745bed25c582778f9dc84ad8dc2b19fa31d3e4c4258"
+      url "https://github.com/ermoluk/mcp-warden/releases/download/v0.5.4/mcp-warden-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "09a464111d353421f34bda1a69ed436abeb44863ff493da1e1d1706f39ed2357"
     end
     on_intel do
-      url "https://github.com/ermoluk/mcp-warden/releases/download/v0.5.3/mcp-warden-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d9311f88c3ea1ca1a1fc04adc985fe391598e314b484306cd1d14dbecbf6d7a4"
+      url "https://github.com/ermoluk/mcp-warden/releases/download/v0.5.4/mcp-warden-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "aa56c82d28051882be0106abb68fd3a913fd55d0e8aee396e95a41e1f08cae41"
     end
   end
 
